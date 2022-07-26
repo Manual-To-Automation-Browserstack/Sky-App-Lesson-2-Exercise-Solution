@@ -1,6 +1,6 @@
 ![Logo](https://www.browserstack.com/images/static/header-logo.jpg)
 
-# Manual To Automation @ SKY - App - Lesson 2 - WebDriverIO Appium POM Example <a href="https://appium.io/"><img src="https://brandslogos.com/wp-content/uploads/images/large/appium-logo.png" alt="appium" height="22" /></a>
+# Manual To Automation @ SKY - App - Lesson 2 - WebDriverIO Appium Exercise Solution <a href="https://appium.io/"><img src="https://brandslogos.com/wp-content/uploads/images/large/appium-logo.png" alt="appium" height="22" /></a>
 
 ## Introduction
 
