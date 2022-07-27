@@ -29,6 +29,15 @@ class Search {
         return $(`${selectorType}=${selector}`)  
     };
 
+    // Example of cross platform selector
+    get backButtonSelector () { 
+        const selectorAndroid = 'back_android'
+        const selectorIOS = 'back_ios'
+        const selectorType = driver.isAndroid ? 'android' : 'ios'
+        const selector = driver.isAndroid ? selectorAndroid : selectorIOS
+        return $(`${selectorType}=${selector}`)  
+    };
+
     get addToCartSelector () { return $(`~add-to-cart-12`) };
 
     get cartButtonSelector () { return $('~nav-cart') }

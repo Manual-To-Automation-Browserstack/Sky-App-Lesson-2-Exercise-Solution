@@ -3,26 +3,27 @@ var _ = require("lodash");
 
 var overrides = {
   specs: [
-    "./test/specs/doSearch.ts",
+    "./test/specs/lesson2_PhoneSearch.ts",
   ],
 
   capabilities: [
     {
+      build: "Sky - App Training - Lesson 2 - Exercise Solution",
       maxInstances: 2,
       device: "Samsung Galaxy A51",
       os_version: "10.0",
-      app: "My_Sky_App_iOS",
+      app: "Sky_App_Lesson_2",
       autoGrantPermissions: true,
       platformName: "Android",
     },
     {
+      build: "Sky - App Training - Lesson 2 - Exercise Solution",
       maxInstances: 2,
       device: "iPhone 12 Pro",
       platformName: "iOS",
       os_version: "14",
       gpsEnabled: "true",
-      automationName: "XCUITest",
-      app: process.env.BROWSERSTACK_ANDROID_APP_ID || 'My_Sky_App_Android',
+      app: 'Sky_App_Lesson_2_iOS',
     },
   ],
 };
